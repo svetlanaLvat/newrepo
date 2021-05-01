@@ -1,0 +1,80 @@
+*{
+margin:0;
+padding:0;
+}
+.comunity{
+    margin-top: 79px;
+}
+.content{
+    margin-top: 70px;
+}
+.item-price-heading{
+    display: grid;
+    grid-template-columns: 400px repeat(5, 1fr) ;
+    grid-template-rows:52px repeat(3, 162px);
+}
+.item-price{
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #222222;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: -0.2px;
+    border-bottom: 1px solid #eaeaea;
+}
+.price-prod{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.item-left{
+  justify-content: flex-start;
+}
+.item-right{
+    margin-left: 21px;
+}
+.prod-price{
+    margin-top: 28px;
+}
+.prod-txt{
+    color: #222222;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: right;
+    text-transform: uppercase;
+    border: transparent 1px solid;
+}
+.prod-txt:hover{
+    content: "";
+    border-bottom: 1px solid #222222 ;
+   
+}
+.buttons{
+    margin-top: 44px;
+    justify-content: space-between;
+}
+.buttons-lr{
+    display: flex;
+    justify-content: space-between;
+}
+.but-submit{
+    width: 225px;
+    height: 50px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    color: #4a4a4a;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
